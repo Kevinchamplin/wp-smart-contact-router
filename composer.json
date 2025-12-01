@@ -1,0 +1,14 @@
+{
+  "name": "kevinchamplin/wp-smart-contact-router",
+  "description": "WordPress plugin that routes contact form submissions to different recipients based on topic.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "KevinChamplin\\WPSmartContactRouter\\": "src/"
+    }
+  }
+}
